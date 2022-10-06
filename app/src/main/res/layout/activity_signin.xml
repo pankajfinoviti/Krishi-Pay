@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivImg1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_login_right"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivImg2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_login_left"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+    <ImageView
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="@dimen/_90sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:src="@drawable/app_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:paddingBottom="@dimen/_15sdp"
+        android:background="@drawable/white_rounded_corner"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_16sdp"
+        android:backgroundTint="#1E214E"
+        android:paddingRight="@dimen/_16sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/iLEmail"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:hint="Login Name"
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black"
+            android:visibility="visible"
+            app:errorEnabled="true"
+            app:hintAnimationEnabled="true"
+            app:hintEnabled="true"
+            app:startIconDrawable="@drawable/ic_name_ic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:maxLines="1"
+                android:background="@drawable/white_rounded_corner"
+                android:paddingTop="@dimen/_18sdp"
+                android:paddingBottom="@dimen/_6sdp"
+                android:singleLine="true"
+                android:textColor="@color/textGray"
+                android:textColorHint="@color/textHintGray"
+                android:textSize="@dimen/_12sdp"
+                android:visibility="visible" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/iLPassword"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black"
+            android:visibility="visible"
+            app:errorEnabled="true"
+            app:passwordToggleEnabled="true"
+            app:hintAnimationEnabled="true"
+            app:hintEnabled="true"
+            app:startIconDrawable="@drawable/ic_password_ic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintTop_toBottomOf="@id/iLEmail">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:maxLines="1"
+                android:background="@drawable/white_rounded_corner"
+                android:paddingTop="@dimen/_18sdp"
+                android:paddingBottom="@dimen/_6sdp"
+                android:singleLine="true"
+                android:textColor="@color/textGray"
+                android:textColorHint="@color/textHintGray"
+                android:textSize="@dimen/_12sdp"
+                android:visibility="visible" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cbRemember"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            app:layout_constraintStart_toStartOf="@id/iLPassword"
+            app:layout_constraintTop_toBottomOf="@id/iLPassword"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvRemember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember me"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@id/cbRemember"
+            app:layout_constraintTop_toTopOf="@id/cbRemember"
+            app:layout_constraintBottom_toBottomOf="@id/cbRemember"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvForgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/cbRemember"
+            app:layout_constraintBottom_toBottomOf="@id/cbRemember"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proceed"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_button"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/tvForgot"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvOr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:textColor="@color/black"
+        android:background="@drawable/circle_bg"
+        android:gravity="center"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/clCard"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reg"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:textColor="@color/textGray"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:fontFamily="@font/poppins_semibold"
+        app:layout_constraintTop_toBottomOf="@id/tvOr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgQuery"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:textColor="@color/black"
+        android:background="@drawable/circle_bg"
+        android:gravity="center"
+        android:padding="@dimen/_8sdp"
+        android:src="@drawable/ic_question"
+        app:tint="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_margin="@dimen/_15sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

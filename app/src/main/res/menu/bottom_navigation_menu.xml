@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnHome"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_dash_two"
+        android:title="Home"/>
+    <item
+        android:id="@+id/btnReports"
+        android:enabled="true"
+        android:icon="@drawable/ic_order_dash_two"
+        android:title="Reports" />
+    <item
+        android:id="@+id/btnAeps"
+        android:enabled="true"
+        android:icon="@drawable/ic_qr_dash_two"
+        android:title="Aeps"/>
+    <item
+        android:id="@+id/btnAccount"
+        android:enabled="true"
+        android:icon="@drawable/ic_user"
+        android:title="Account"/>
+    <item
+        android:id="@+id/btnSetting"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"/>
+</menu>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable-xhdpi/ic_attach_button_m.xml" value="0.117" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable-xxhdpi/ic_money_return.xml" value="0.117" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable-xxhdpi/ic_money_send.xml" value="0.117" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable-xxhdpi/icon_add_member.xml" value="0.117" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable-xxhdpi/spinner_bg.xml" value="0.117" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable-xxxhdpi/service_circle_bg.xml" value="0.165" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/button_bg.xml" value="0.1" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/circle_bg.xml" value="0.165" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/gray_round_corner_refer.xml" value="0.1" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/gray_round_corner_refer_filled.xml" value="0.1" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/ic_attach_button_m.xml" value="0.117" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/ic_city_ic.xml" value="0.117" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/ic_complain_new_icon.xml" value="0.117" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/ic_login_left.xml" value="0.1755" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/ic_login_right.xml" value="0.1755" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/ic_money_return.xml" value="0.117" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/ic_money_send.xml" value="0.117" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/ic_name_ic.xml" value="0.117" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/ic_search_gray.xml" value="0.158" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/ic_user_ic.xml" value="0.117" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/icon_add_member.xml" value="0.117" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/plan_price_bg.xml" value="0.158" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/primary_border_red.xml" value="0.158" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/round_gray_bg.xml" value="0.158" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/service_circle_bg.xml" value="0.165" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/sign_edit_bg.xml" value="0.117" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/drawable/spinner_bg.xml" value="0.117" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/font/amiko_bold.xml" value="0.21666666666666667" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/activity_main_home.xml" value="0.17592592592592593" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/activity_on_boarding.xml" value="0.1" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/activity_online_service.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/activity_online_service2.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/activity_print_pdf.xml" value="0.1" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/activity_profile_page_new.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/activity_referral_bonus.xml" value="0.1" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/activity_settings.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/activity_signin.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/adapter_member_list_row.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/adapter_report_aeps_ladger_list_row.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/adapter_report_wallet_ladger_list_row.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/add_member.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/add_member_list.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/android_loader.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/auth_login.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/bottom_update_popup.xml" value="0.17407407407407408" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/custom_dialog_image_selection.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/dmt_add_ben.xml" value="0.17407407407407408" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/document_image_preview.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/home_transfermoney_row_vertical.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/login_design_one.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/m_document_image_preview.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/member_fund_popup.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/new_market_ativity.xml" value="0.22" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/operator_bank_row.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/service_list_item.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/signup_activity_page_two.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/splash_activity.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/state_list_item.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/view_plan.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/view_plan_row.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/layout/wallet_fund_request.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/app/src/main/res/menu/menu_pdf_viewer.xml" value="0.2" />
+        <entry key="..\:/Mahagram/Mahagram Android/KrishiPay/krishipay/pdfcreator/src/main/res/layout/activity_pdfcreator.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

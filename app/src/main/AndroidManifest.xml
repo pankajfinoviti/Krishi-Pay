@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.payment.krishipay">
+
+    <queries>
+        <package android:name="org.egram.microatm" />
+        <package android:name="com.payment.aepsservice" />
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+            <data android:mimeType="image/jpeg" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.hardware.location.gps" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name="com.payment.krishipay.app.AppController"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:theme"
+        tools:targetApi="m">
+        <activity
+            android:name=".views.onlineservice.OnlineServiceActivity"
+            android:exported="false" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.payment.krishipay.views.reports.AEPSTransaction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.BillReport"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.settings.Settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.ProfilePage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.AllServices"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.invoice.ReportInvoice"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.reports.FilterView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.reports.AEPSFundRequest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.reports.BillRechargeTransaction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.reports.DMTTransactionReport"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.reports.AllReports"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.contact.AndroidContactList"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.payment.krishipay.permission.PermissionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.operator.OperatorList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.billpayment.MobileRechargeAmountInput"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.payment.krishipay.MainActivity"></activity>
+        <activity android:name="com.payment.krishipay.views.browseplan.ViewPlans"></activity>
+        <activity
+            android:name="com.amirarcane.lockscreen.activity.EnterPinActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.payment.krishipay.views.billpayment.RechargeAndBillPayment"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.payment.krishipay.views.billpayment.DTHAmountInput"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.payment.krishipay.views.billpayment.ShowBillFetched"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.payment.krishipay.views.walletsection.WalletOptions"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.payment.krishipay.views.walletsection.AepsMatmWalletReqest"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.payment.krishipay.views.walletsection.WalletFundRequest"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.payment.krishipay.views.moneytransfer.DMTSearchAccount"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.payment.krishipay.views.moneytransfer.BenDetails"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.payment.krishipay.views.otpview.OTPValidate"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.payment.krishipay.views.moneytransfer.AddBeneficiary"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.payment.krishipay.views.moneytransfer.DMTTransaction"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.payment.krishipay.views.mhagram_aeps_matm.HandlerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.payment_gateway.GatewayStatus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.auth.Login"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.payment.krishipay.views.otpview.OTPValidateAuth"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.payment.krishipay.views.BankAccountPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.reports.MainWalletFundReqStatement"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.invoice.MatmInvoice"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.network.SessionExpired"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.settings.LockSettings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.allservices_search.AllServicesSearch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.reports.status.CheckStatus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.otpview.OTPValidateForgetPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.mhagram_aeps_matm.kyc.KYCActivityFormOne"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.payment.krishipay.views.mhagram_aeps_matm.kyc.KYCActivityFormTwo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.settings.WebViewPAge"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.ocr.ProcessCamera"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.payment.krishipay.views.upi.ShowQR"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.upi.UPIForm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.reports.UpiTransactionReport"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.reports.status.UPICheckStatus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.reports.MATMFundRequest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.invoice.PdfManager2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.payment.krishipay.views.invoice.PdfViewerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.payment.krishipay.MainActivityMintra"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.moneytransfer.mintra.MintraDMTSearchAccount"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.moneytransfer.mintra.MintraAddBeneficiary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.views.moneytransfer.mintra.MintraDMTTransaction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.payment.krishipay.firebase.NotificationDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Dialog.Alert" />
+        <activity android:name="com.payment.krishipay.views.otpview.PasswordReset" />
+        <activity android:name="com.payment.krishipay.views.loan.LoanFormOne"></activity>
+        <activity android:name="com.payment.krishipay.views.loan.LoanFormTwo" />
+        <activity android:name="com.payment.krishipay.views.loan.StateList" />
+        <activity android:name="com.payment.krishipay.views.loan.AllServicesDash"></activity>
+        <activity android:name="com.payment.krishipay.views.ecommarce.CommingSoon" />
+        <activity android:name=".views.auth.Signup" />
+        <activity android:name="com.payment.iydapayment.customWebview.WebActivity" />
+\        <activity android:name=".views.on_boarding.OnBoardingActivity" />
+        <activity android:name=".views.select_state_district.SearchWithListActivity" />
+        <activity android:name=".views.on_boarding.UploadDocumentActivity" />
+        <activity android:name=".views.reports.AepsWalletStatement" />
+        <activity android:name=".views.reports.WalletStatement" />
+        <activity android:name=".views.member.AddMember" />
+        <activity android:name=".views.member.MemberListAll" />
+        <activity android:name=".views.referall.ReferralActivity" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCHeAJBmKB96xYiYubA2fAIeIgk6VlMVQA" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.mlkit.vision.DEPENDENCIES"
+            android:value="ocr" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.files"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/abc_vector_test" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/purple_200" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+    </application>
+
+</manifest>

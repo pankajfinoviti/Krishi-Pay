@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#80BA04</color>
+    <color name="colorPrimaryDark">#80BA04</color>
+    <color name="colorAccent">#80BA04</color>
+    <color name="colorPrimaryTrans">#2D000000</color>
+    <color name="white_card">#FFFFFF</color>
+    <color name="bg_color">#F5F5F5</color>
+    <color name="bg_color_light">#5BF5F5F5</color>
+    <color name="white">#ffffff</color>
+    <color name="textWhite">#ffffff</color>
+    <color name="blue">#3F51B5</color>
+    <color name="textBlack">#000000</color>
+    <color name="textGray">#6E6E6E</color>
+    <color name="textHintGray">#E4AEAEAE</color>
+    <color name="imageWhite">#ffffff</color>
+    <color name="textSelector">#80BA04</color>
+    <color name="drop_shadow_color">#88333333</color>
+    <color name="imgGray">#393939</color>
+    <color name="textGreen">#4CAF50</color>
+    <color name="textRed">#F6392B</color>
+    <color name="textRedTrans">#3680BA04</color>
+    <color name="icon_bg_circle">#E7E6E6</color>
+    <color name="img_primary">#80BA04</color>
+
+    <color name="bottom_color_one">#93F9B9</color>
+    <color name="bottom_color_two">#1D976C</color>
+    <color name="yellow_button">#FFC107</color>
+    <color name="divider">#F5F5F5</color>
+
+
+    <color name="text_gray">#7b8994</color>
+    <color name="text_yellow">#FFC107</color>
+    <color name="bg_yellow">#FFC107</color>
+    <color name="trans_text_black">#222426</color>
+    <color name="view_gray">#ececec</color>
+    <color name="GRAY">#f5f5f5</color>
+    <color name="Gray">#F5F5F5</color>
+    <color name="GrayOnlyPrimary">#EDEDED</color>
+    <color name="green">#4CAF50</color>
+    <color name="greenTrans">#564CAF50</color>
+    <color name="red">#F44336</color>
+    <color name="trans">#00AAAAAA</color>
+    <color name="textGrayBoth">#6E6E6E</color>
+    <color name="blackishTextColor">#DD000000</color>
+
+</resources>

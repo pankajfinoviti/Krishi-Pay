@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="20dp"
+    android:layout_marginBottom="-20dp"
+    android:layout_gravity="bottom"
+    android:layout_marginTop="30dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/anim"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/app_install_stack_anim" />
+
+        <TextView
+            android:id="@+id/tvLbl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/anim"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:text="Please install aeps sdk application to accept future updates automatically"
+            android:textSize="@dimen/_11sdp" />
+
+        <View
+            android:id="@+id/div"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tvLbl1"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/Gray" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnInstall"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/div"
+            android:layout_centerHorizontal="true"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/poppins_bold"
+            android:paddingHorizontal="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Install Application"
+            android:textColor="@color/green"
+            android:textSize="@dimen/_12sdp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentEnd="true"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/poppins_bold"
+            android:paddingHorizontal="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Close"
+            android:textColor="@color/red"
+            android:textSize="@dimen/_12sdp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

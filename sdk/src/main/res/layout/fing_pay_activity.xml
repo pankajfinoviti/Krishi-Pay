@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/di"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Micro Atm"
+        android:fontFamily="@font/amiko_bold"
+        android:textColor="@color/white"
+        android:layout_marginLeft="16dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_below="@id/di"
+        android:id="@+id/et_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="16dp"
+        android:paddingStart="10dp"
+        android:gravity="center_vertical"
+        android:textCursorDrawable="@null"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+
+    <TextView
+        android:layout_below="@id/et_mobile"
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="16dp"
+        android:paddingStart="10dp"
+        android:gravity="center_vertical"
+        android:textCursorDrawable="@null"
+        android:textSize="14sp"
+        android:typeface="monospace"
+        android:textStyle="bold"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/type"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Gray"/>
+
+    <EditText
+        android:layout_below="@id/divider"
+        android:id="@+id/et_amount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/round_border_dark"
+        android:hint="Amount"
+        android:inputType="numberSigned"
+        android:maxLength="8"
+        android:fontFamily="@font/amiko_bold"
+        android:paddingStart="10dp"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:textCursorDrawable="@null"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_fingpay"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/text_size16"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="@dimen/text_size16"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Proceed"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_bg"
+        android:gravity="center"
+        android:text="History"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:visibility="gone" />
+</RelativeLayout>
