@@ -46,7 +46,7 @@ public class ProfilePage extends AppCompatActivity {
         tvUserName.setText(userName);
         tvMobile.setText(mobile);
         tvKYC.setText(kyc);
-        tvEmail.setText(email);
+        tvEmail.setText("help@krishipay.co.in");
         tvPanCard.setText(pancard);
         tvAadhaarCard.setText(aadhaarCard);
         tvShopName.setText(shopName);

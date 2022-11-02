@@ -40,7 +40,7 @@ public class AllServicesDash extends AppCompatActivity implements RequestRespons
 
         logout.setOnClickListener(v -> AppManager.getInstance().logoutFromServer(this, false));
         ivWhatsapp.setOnClickListener(view -> {
-            MyUtil.openWhatsApp("9811410480", this);
+            MyUtil.openWhatsApp("6390899948", this);
         });
     }
 
